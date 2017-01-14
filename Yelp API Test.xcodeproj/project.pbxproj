@@ -10,6 +10,9 @@
 		06846F1341D0077D33B486C0 /* Pods_Yelp_API_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5B08CD42C4FDCB449D4C44 /* Pods_Yelp_API_TestUITests.framework */; };
 		11BD77CC07E133E09D1C3FC9 /* Pods_Yelp_API_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC38E574778FE2243869DAC /* Pods_Yelp_API_Test.framework */; };
 		18C1CFF492C69F32411B7DF6 /* Pods_Yelp_API_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3B13FC883E0E9F05159A41 /* Pods_Yelp_API_TestTests.framework */; };
+		46504FB31E29B93200D56589 /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46504FB21E29B93200D56589 /* BusinessesViewController.swift */; };
+		46504FB51E29B9F100D56589 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46504FB41E29B9F100D56589 /* Business.swift */; };
+		46504FB71E29C3F100D56589 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46504FB61E29C3F100D56589 /* BusinessCell.swift */; };
 		46A26E051E2713170075B831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A26E041E2713170075B831 /* AppDelegate.swift */; };
 		46A26E071E2713170075B831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A26E061E2713170075B831 /* ViewController.swift */; };
 		46A26E0A1E2713170075B831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A26E081E2713170075B831 /* Main.storyboard */; };
@@ -42,6 +45,9 @@
 		0CC38E574778FE2243869DAC /* Pods_Yelp_API_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelp_API_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2091A46D003DBA6B2FCB026D /* Pods-Yelp API TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp API TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yelp API TestTests/Pods-Yelp API TestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4509CC8A8DBAEB8F883E988E /* Pods-Yelp API Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp API Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yelp API Test/Pods-Yelp API Test.release.xcconfig"; sourceTree = "<group>"; };
+		46504FB21E29B93200D56589 /* BusinessesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessesViewController.swift; sourceTree = "<group>"; };
+		46504FB41E29B9F100D56589 /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		46504FB61E29C3F100D56589 /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
 		46A26E011E2713170075B831 /* Yelp API Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yelp API Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A26E041E2713170075B831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46A26E061E2713170075B831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +126,9 @@
 				46A26E0B1E2713170075B831 /* Assets.xcassets */,
 				46A26E0D1E2713170075B831 /* LaunchScreen.storyboard */,
 				46A26E101E2713170075B831 /* Info.plist */,
+				46504FB21E29B93200D56589 /* BusinessesViewController.swift */,
+				46504FB41E29B9F100D56589 /* Business.swift */,
+				46504FB61E29C3F100D56589 /* BusinessCell.swift */,
 			);
 			path = "Yelp API Test";
 			sourceTree = "<group>";
@@ -446,8 +455,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46504FB71E29C3F100D56589 /* BusinessCell.swift in Sources */,
 				46A26E071E2713170075B831 /* ViewController.swift in Sources */,
+				46504FB51E29B9F100D56589 /* Business.swift in Sources */,
 				46A26E051E2713170075B831 /* AppDelegate.swift in Sources */,
+				46504FB31E29B93200D56589 /* BusinessesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

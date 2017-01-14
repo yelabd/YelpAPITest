@@ -8,6 +8,7 @@ target 'Yelp API Test' do
   # Pods for Yelp API Test
     pod 'SwiftyJSON'
     pod 'Alamofire'
+    pod 'AFNetworking'
 
   target 'Yelp API TestTests' do
     inherit! :search_paths
